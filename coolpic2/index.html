@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cool Pics</title>
+  <link rel="stylesheet" href="coolpics.css" />
+</head>
+<body>
+  <header>
+    <h1>Cool Pics 📷</h1>
+    <nav>
+      <button id="menu-button">Menu</button>
+      <ul id="nav-links" class="hide">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Places</a></li>
+        <li><a href="#">People</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <!-- 9 Chuck Norris thumbnails -->
+      <img src="images/norris-sm.jpeg" alt="Norris 1" />
+      <img src="images/norris-sm.jpeg" alt="Norris 2" />
+      <img src="images/norris-sm.jpeg" alt="Norris 3" />
+      <img src="images/norris-sm.jpeg" alt="Norris 4" />
+      <img src="images/norris-sm.jpeg" alt="Norris 5" />
+      <img src="images/norris-sm.jpeg" alt="Norris 6" />
+      <img src="images/norris-sm.jpeg" alt="Norris 7" />
+      <img src="images/norris-sm.jpeg" alt="Norris 8" />
+      <img src="images/norris-sm.jpeg" alt="Norris 9" />
+    </div>
+  </main>
+
+  <!-- Modal viewer -->
+  <dialog id="image-modal">
+    <img src="" alt="">
+    <button class="close-viewer">X</button>
+  </dialog>
+
+  <script src="coolpics.js"></script>
+</body>
+</html>
