@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+:root {
+  --color-gold: #efc69b;
+  --color-red: #af1b3f;
+  --color-dark: #473144;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: var(--color-dark);
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  justify-content: end;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+nav li {
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-red);
+  font-size: 1.1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  gap: 2rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  align-items: center;
+}
+
+
+
+
+.book-info {
+  font-size: 0.95rem;
+  text-align: left;
+  color: var(--color-dark);
+  padding: 1rem;
+}
+
+
+
+.book-content {
+  text-align: center;
+  border-left: 3px solid var(--color-gold);
+  padding-left: 2rem;
+}
+
+
+.book-content img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+
+
+
+.book-info p:last-child {
+  color: gold;
+  font-size: 1.2rem;
+}
+
+
+.filters {
+  background-color: #fff;
+  border: 2px solid var(--color-gold); /* gold outline */
+  padding: 1.5rem;
+  font-size: 1rem;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+.filters h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.filters label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.filters select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--color-gold);
+}
+
+.skiptocontent a {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.skiptocontent a:focus {
+  top: 0;
+}
