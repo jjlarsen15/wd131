@@ -90,6 +90,12 @@ article {
   margin: 0 auto 1rem auto;
 }
 
+.book-content h2 {
+  color: var(--color-red);
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
 
 
 
