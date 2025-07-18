@@ -59,26 +59,41 @@
     </div>
   </section>
 
-  <section id="contact" class="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <form id="contactForm">
-        <label for="name">Your Name<span style="color:red">*</span></label>
-        <input type="text" name="name" id="name" placeholder="Your Name" required />
+ <section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Your Name<span style="color:red">*</span></label>
+      <input type="text" name="name" id="name" placeholder="Your Name" required />
 
-        <label for="email">Your Email<span style="color:red">*</span></label>
-        <input type="email" name="email" id="email" placeholder="Your Email" required />
+      <label for="email">Your Email<span style="color:red">*</span></label>
+      <input type="email" name="email" id="email" placeholder="Your Email" required />
 
-        <label for="phone">Phone Number<span style="color:red">*</span></label>
-        <input type="tel" name="phone" id="phone" placeholder="Your Phone Number" required />
+      <label for="phone">Phone Number<span style="color:red">*</span></label>
+      <input type="tel" name="phone" id="phone" placeholder="Your Phone Number" required />
 
-        <label for="message">Message<span style="color:red">*</span></label>
-        <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+      <!-- Optional Address Fields -->
+   <label for="address">Street Address<span style="color:red">*</span></label>
+<input type="text" name="address" id="address" placeholder="123 Main St" required />
 
-        <button type="submit">Send</button>
-      </form>
-    </div>
-  </section>
+<label for="city">City<span style="color:red">*</span></label>
+<input type="text" name="city" id="city" placeholder="Your City" required />
+
+<label for="state">State<span style="color:red">*</span></label>
+<input type="text" name="state" id="state" placeholder="Your State" required />
+
+<label for="zip">Zip Code<span style="color:red">*</span></label>
+<input type="text" name="zip" id="zip" placeholder="Your Zip Code" required />
+
+
+      <label for="message">Message<span style="color:red">*</span></label>
+      <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
+
 
 <!-- Elfsight Google Reviews | Untitled Google Reviews -->
 <script src="https://static.elfsight.com/platform/platform.js" async></script>
