@@ -1,0 +1,82 @@
+:root {
+  --bg-color: #f3f3f3;
+  --text-color: #222;
+  --accent: #2b70c9;
+  --font-main: 'Inter', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
+}
+
+#content {
+  background: white;
+  max-width: 800px;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: var(--accent);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #dcdcdc;
+  margin: 1.5rem 0;
+}
+
+.logo-group img {
+  width: 200px;
+  max-width: 90%;
+  margin-bottom: 1.5rem;
+}
+
+#topics h2 {
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+#topics p {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  #content {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .logo-group img {
+    width: 150px;
+  }
+}
