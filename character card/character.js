@@ -1,11 +1,10 @@
-// Character object with required properties + methods
 const character = {
   name: "Snortlebat",
-  ["class"]: "Swamp Beast Diplomat",   // updated per request
+  ["class"]: "Swamp Beast Diplomat",
   level: 3,
   health: 100,
   image: "image/characterimage.webp",
-  _deadAlerted: false,                 // prevents multiple alerts at 0
+  _deadAlerted: false,
 
   attacked() {
     const before = this.health;
@@ -25,7 +24,6 @@ const character = {
   }
 };
 
-// Render helper (like your homework pattern)
 function render() {
   document.getElementById("charName").textContent = character.name;
   document.getElementById("charClass").textContent = character["class"];
@@ -37,7 +35,6 @@ function render() {
   img.alt = `${character.name} artwork`;
 }
 
-// Events
 document.getElementById("attackBtn").addEventListener("click", () => {
   character.attacked();
 });
@@ -46,5 +43,4 @@ document.getElementById("levelBtn").addEventListener("click", () => {
   character.levelUp();
 });
 
-// Initial paint
 render();
