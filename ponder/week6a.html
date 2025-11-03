@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ponder - Array Methods</title>
+  <style>
+    :root { --rule:#b8b8b8; }
+    body { font-family: Georgia, "Times New Roman", serif; margin: 0 1rem 4rem; }
+    main { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 0.95rem; letter-spacing: .08em; margin-top: 1.5rem; text-transform: uppercase; }
+    ul { margin-top: .75rem; }
+    
+    /* Student list look */
+    .students { margin-top: 2.25rem; }
+    .student {
+      text-align: center;
+      font-size: 1.25rem;   /* ↓ was 2rem, now smaller */
+      margin: 1rem 0;
+    }
+    .rule {
+      height: 0;
+      border: 0;
+      border-top: 2px solid var(--rule);
+      margin: .75rem 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>dynamic data and console output</h1>
+
+    <!-- bullets -->
+    <ul id="bullets"></ul>
+
+    <!-- students with rules -->
+    <section class="students" id="students"></section>
+  </main>
+
+  <script src="week6a.js" type="module"></script>
+</body>
+</html>
